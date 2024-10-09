@@ -1,0 +1,30 @@
+object Form1: TForm1
+  Left = 999
+  Top = 257
+  Width = 309
+  Height = 99
+  VertScrollBar.Range = 81
+  HorzScrollBar.Range = 289
+  Caption = 'Form1'
+  Color = clBackground
+  PixelsPerInch = 96
+  TextHeight = 13
+  TextWidth = 6
+  object btn1: TButton
+    Left = 112
+    Top = 56
+    Width = 75
+    Height = 25
+    Caption = 'talk'
+    TabOrder = 0
+    OnClick = btn1Click
+    OnKeyPress = btn1KeyPress
+  end
+  object edt1: TEdit
+    Left = 32
+    Top = 24
+    Width = 257
+    Height = 21
+    TabOrder = 1
+  end
+end
