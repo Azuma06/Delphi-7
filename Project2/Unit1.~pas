@@ -21,6 +21,7 @@ type
     procedure img2Click(Sender: TObject);
     procedure img3Click(Sender: TObject);
     procedure btn2Click(Sender: TObject);
+    procedure btn1Click(Sender: TObject);
   private
     { Private declarations }
     vote1, vote2, vote3: Integer;
@@ -70,6 +71,11 @@ begin
         pnl1.Caption  := IntToStr(vote1);
         pnl2.Caption  := IntToStr(vote2);
         pnl3.Caption  := IntToStr(vote3);
+end;
+
+procedure TForm1.btn1Click(Sender: TObject);
+begin
+        Application.Terminate;  
 end;
 
 end.
